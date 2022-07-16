@@ -8,19 +8,27 @@
 <style>
     .container{
         border: 3px solid goldenrod;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 300px;
+        align-items: center;
     }
     .box{
         border: 3px dashed gold;
         width: 100px;
         height: 100px;
     }
+    #boxgrow{
+        flex-grow: 1;
+    }
 </style>
 </head>
 <body>
     <div class="container">
         <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
+        <div id="boxgrow" class="box">Box 2</div>
+         
     </div>
      
 </body>
