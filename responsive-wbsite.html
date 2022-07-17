@@ -32,6 +32,24 @@
         .split img{
             width: 100%;
         }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .container .box{
+            border: 1px solid green;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .box h1{
+            font-size: 2vw;
+        
+        }
+        .box img{
+            width: 100%;
+        }
         @media screen  and (max-width: 600px) {
             .conteiner-flex{
              flex-direction: column-reverse;
@@ -39,6 +57,18 @@
         }
         .split{
             width: 100%; 
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 5px;
+        }
+        }
+        @media screen and (min-width: 600px) and (max-width: 900px) {
+            .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
         }
         }
     </style>
@@ -68,6 +98,59 @@
             <img src="images/img.png" alt=""> 
         </div>
     </div>
+
+    <div class="container">
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+        <div class="box">
+            <img src="images/foodts.jpg" alt="">
+            <h1>Hello</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam tempora nobis nemo at, neque temporibus. Repellat, est, quod harum quisquam placeat assumenda adipisci saepe odit nostrum nihil labore ad.</p>
+            <button>Submit</button>
+        </div>
+         
+    </div>
+
     <!-- 
 
         Main Part of responsive website
@@ -76,6 +159,7 @@
         3. responsive image
         4. body max-with and margin auto
         5. reponsive split screen using flex and  
+        6. Responsive grid (multi coulumn)
      -->
 </body>
 </html>
